@@ -1,0 +1,14 @@
+{
+  "name": "electrongardener_v3",
+  "version": "1.0.0",
+  "description": "electronGardener3",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Rishabh Vemuri",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.2.3"
+  }
+}

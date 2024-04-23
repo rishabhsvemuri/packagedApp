@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Plotgardener UI Prototype</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="askPath">
+      <h2>Enter path to save the PDF (i.e. path/file-name.pdf):</h2>
+      <input type="text" id="path">
+    </div>
+    <div id="container">
+        <h1>Add Plots</h1>
+        <div id="plotListContainer">
+            <ul id="plotList"></ul>
+        </div>
+        <div id="addPlotContainer">
+            <input type="text" id="plotInput" placeholder="Enter an item">
+            <button id="addPlot">Add Plot</button>
+        </div>
+        <hr>
+        <div>
+          <button id="rbtn" type="button">Run Script</button>
+        </div>
+    </div>
+    <hr>
+  </body>
+  <body>    
+    <embed src="" id="pdf" width="850px" height="1100px" />
+    <p id="outputPath"></p>
+    <script src="./renderer.js"></script>
+  </body>
+
+</html>
